@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Data Parameter Example</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Form Data Parameter Example</h1>
+        <p>
+            This will return a JSON response with the data submitted if successful.
+        </p>
+        <form method="post" action="ws/frm" enctype="application/x-www-form-urlencoded">
+            <label id="nameLabel" for="nameInput">Name</label>
+            <input id="nameInput" name="name" type="text"/><br/>
+            <label id="valueLabel" for="valueInput">Value</label>
+            <input id="valueInput" name="value" type="text"/><br/>
+            <button id="submitButton" type="submit">Submit</button>
+        </form>
+    </body>
+</html>
